@@ -1,0 +1,22 @@
+body {
+  margin: auto;
+  width: 1240px;
+}
+
+/* a { */
+/*   color: #ffffff; */
+/* } */
+
+#nav-logo {
+  height: 162px;
+  height: 80px;
+}
+
+.upper-nav {
+  background-color: #ed002d;
+  height: 80px;
+}
+
+.container {
+  width: 1240px;
+}
