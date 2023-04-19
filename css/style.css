@@ -1,12 +1,10 @@
 body {
   margin: auto;
-  width: 1240px;
+  width: 75%;
 }
-
-/* a { */
-/*   color: #ffffff; */
-/* } */
-
+.card-body, .text-center {
+  background-color: rgb(44, 44, 44);
+}
 #nav-logo {
   height: 162px;
   height: 80px;
@@ -18,5 +16,6 @@ body {
 }
 
 .container {
-  width: 1240px;
+  margin: auto;
+  width: 75%;
 }
