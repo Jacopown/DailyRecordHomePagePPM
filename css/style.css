@@ -1,21 +1,30 @@
-body {
-  margin: auto;
-  width: 75%;
+.bg-red {
+  background-color: #ed002d;
 }
-.card-body, .text-center {
+.card-body {
   background-color: rgb(44, 44, 44);
 }
-#nav-logo {
-  height: 162px;
-  height: 80px;
-}
 
-.upper-nav {
-  background-color: #ed002d;
-  height: 80px;
+.color-gray {
+  color: rgb(151, 151, 151);
 }
-
-.container {
-  margin: auto;
-  width: 75%;
-}
+/* @media only screen and (max-width: 576px) { */
+/*   #first-post { */
+/*     text-align: left; */
+/*   } */
+/* } */
+/* body { */
+/*   margin: auto; */
+/*   width: 75%; */
+/* } */
+/* .card-body, .text-center { */
+/*   background-color: rgb(44, 44, 44); */
+/* } */
+/* #nav-logo { */
+/*   height: 162px; */
+/*   height: 80px; */
+/* } */
+/* .container { */
+/*   margin: auto; */
+/*   width: 75%; */
+/* } */
