@@ -1,3 +1,21 @@
+body {
+  font-family: "Open Sans",sans-serif;
+  font-size: 16px;
+}
+
+.ft-36 {
+  font-size: 36px;
+} 
+
+.ft-20 {
+  font-size: 20px;
+} 
+
+.publication-title {
+  font-family: "Signika Negative","Signika Negative-fallback","Open Sans","Open Sans-fallback",system-ui,sans-serif !important;
+  font-weight: 700;
+}
+
 .main-navbar {
   height: 80px;
 }
@@ -29,7 +47,7 @@
   background-color: rgb(44, 44, 44);
 }
 
-.color-gray {
+.text-gray {
   color: rgb(151, 151, 151);
 }
 
@@ -40,6 +58,9 @@
   .navbar-logo {
     height: 70px;
   }
+  .ft-36 {
+    font-size: 32px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -48,5 +69,13 @@
   }
   .navbar-logo {
     height: 50px;
+  }
+  .ft-36 {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .ft-20 {
+    font-size: 18px;
   }
 }
