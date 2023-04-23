@@ -1,13 +1,9 @@
-body {
-  width: 1240px;
-}
-
 .main-navbar {
   height: 80px;
 }
 
 .navbar-toggler-icon{
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .navbar-logo {
@@ -17,7 +13,19 @@ body {
   background-color: #ed002d;
 }
 
-.card-body {
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 3.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+.color-black {
   background-color: rgb(44, 44, 44);
 }
 
@@ -42,18 +50,3 @@ body {
     height: 50px;
   }
 }
-/* body { */
-/*   margin: auto; */
-/*   width: 75%; */
-/* } */
-/* .card-body, .text-center { */
-/*   background-color: rgb(44, 44, 44); */
-/* } */
-/* #nav-logo { */
-/*   height: 162px; */
-/*   height: 80px; */
-/* } */
-/* .container { */
-/*   margin: auto; */
-/*   width: 75%; */
-/* } */
