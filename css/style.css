@@ -11,9 +11,26 @@ body {
   font-size: 20px;
 } 
 
+.ft-10 {
+  font-size: 10px;
+} 
+
 .publication-title {
   font-family: "Signika Negative","Signika Negative-fallback","Open Sans","Open Sans-fallback",system-ui,sans-serif !important;
   font-weight: 700;
+}
+
+.small-title {
+  font-weight: 700;
+}
+
+.section-name {
+  font-weight: 700;
+}
+
+.bookmark-text {
+  font-size: 12px;
+  font-weight: 600;
 }
 
 .main-navbar {
@@ -43,12 +60,16 @@ body {
   white-space: nowrap;
 }
 
-.color-black {
+.bg-black {
   background-color: rgb(44, 44, 44);
 }
 
 .text-gray {
   color: rgb(151, 151, 151);
+}
+
+.text-black {
+  color: rgb(20, 20, 20);
 }
 
 @media only screen and (max-width: 992px) {
