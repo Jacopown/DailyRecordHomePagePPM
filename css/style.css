@@ -29,6 +29,14 @@ body {
   font-weight: 700;
 }
 
+.citation-font {
+  font-family: Georgia,Times,"Times New Roman",serif;
+  font-size: 18px;
+  font-style: italic;
+  color: rgb(73, 73, 73);
+  font-weight: 400;
+}
+
 .small-title {
   font-weight: 700;
 }
@@ -55,6 +63,10 @@ body {
 }
 .bg-red {
   background-color: #ed002d;
+}
+
+.bg-red-trans {
+  background: rgba(237,0,45,.12) !important;
 }
 
 .nav-scroller {
