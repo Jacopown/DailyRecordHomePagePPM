@@ -3,6 +3,10 @@ body {
   font-size: 16px;
 }
 
+.container-fluid {
+  max-width: 1270px;
+}
+
 .ft-36 {
   font-size: 36px;
 } 
@@ -14,6 +18,11 @@ body {
 .ft-10 {
   font-size: 10px;
 } 
+
+.mx-16 {
+  margin-right: 16px;
+  margin-left: 16px;
+}
 
 .publication-title {
   font-family: "Signika Negative","Signika Negative-fallback","Open Sans","Open Sans-fallback",system-ui,sans-serif !important;
@@ -72,6 +81,9 @@ body {
   color: rgb(20, 20, 20);
 }
 
+@media only screen and (max-width: 1200px) {
+}
+
 @media only screen and (max-width: 992px) {
   .main-navbar {
     height: 70px;
@@ -94,8 +106,6 @@ body {
   .ft-36 {
     font-size: 24px;
   }
-}
-@media only screen and (max-width: 768px) {
   .ft-20 {
     font-size: 18px;
   }
